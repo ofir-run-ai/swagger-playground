@@ -1,0 +1,48 @@
+# DisplayedJob
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**job_id** | **str** | Unique identifier of the job. | [optional] 
+**pod_group_id** | **str** | Unique identifier of the pod group. | [optional] 
+**job_name** | **str** | The name of the job. | [optional] 
+**job_type** | **str** |  | [optional] 
+**cluster_id** | **str** | Unique identifier of the cluster. | [optional] 
+**status** | **str** |  | [optional] 
+**image_name** | **str** | The name of the image executed by the pod. | [optional] 
+**user** | **str** | The owner of the job. | [optional] 
+**project** | **str** | The project that the pod group belongs to. | [optional] 
+**node_id** | **str** | Unique identifier of the node. | [optional] 
+**creation_time** | **str** | Creation time of the job. | [optional] 
+**completion_time** | **str** | Completion time of the job. | [optional] 
+**total_runtime** | **str** |  | [optional] 
+**total_wait_time** | **str** |  | [optional] 
+**pending** | **float** |  | [optional] 
+**running** | **float** |  | [optional] 
+**parallelism** | **float** |  | [optional] 
+**completions** | **float** |  | [optional] 
+**failed** | **float** |  | [optional] 
+**succeeded** | **float** |  | [optional] 
+**current_allocated_gpus** | **float** |  | [optional] 
+**current_allocated_gpus_memory** | **float** |  | [optional] 
+**current_requested_gpus** | **float** |  | [optional] 
+**total_requested_gpus** | **float** |  | [optional] 
+**requested_gpus_per_pod_group** | **float** |  | [optional] 
+**requested_gpus_memory_per_pod_group** | **float** |  | [optional] 
+**parent_workload_name** | **str** |  | [optional] 
+**total_requested_memory** | **float** |  | [optional] 
+**total_requested_cpu** | **float** |  | [optional] 
+**total_limit_cpu** | **float** |  | [optional] 
+**total_limit_memory** | **float** |  | [optional] 
+**workload_kind** | **float** | Specifies the kind of k8s resource that owns the pod group. | [optional] 
+**latest_pod** | [**Pod**](Pod.md) |  | [optional] 
+**cli_command** | **str** |  | [optional] 
+**requested_mig_devices** | **str** |  | [optional] 
+**dynamic_data** | **object** |  | [optional] 
+**exists_in_cluster** | **bool** |  | [optional] 
+**is_jupyter** | **bool** | If true, it indicates that the pod group runs jupyter notebook. | [optional] [default to False]
+**job_url** | **str** |  | [optional] 
+**node_pool** | **str** | The node pool of the job. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

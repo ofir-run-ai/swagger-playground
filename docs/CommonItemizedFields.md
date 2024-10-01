@@ -1,0 +1,10 @@
+# CommonItemizedFields
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**labels** | [**Labels**](Labels.md) |  | [optional] 
+**tolerations** | [**Tolerations**](Tolerations.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
